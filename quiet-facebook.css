@@ -8,6 +8,20 @@ div[id*="pagelet_trending_tags_and_topics"] /* Right column: Trending tags and t
 }
 
 /* News feed - Needs visibility:hidden to prevent endless refreshing */
-div[id*="topnews"] { 
+div[id*="topnews"]
+ { 
 	visibility: hidden !important;
+}
+
+
+/* Hides Left Sidebar */
+
+div#leftCol, div#pagelet_navigation {
+	display: none;
+}
+
+/* Hides Right Sidebar and Ads */
+
+div#rightCol {
+	display: none;
 }
